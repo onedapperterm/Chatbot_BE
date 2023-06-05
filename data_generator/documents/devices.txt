@@ -1,0 +1,35 @@
+Drucker
+Switch
+Modem
+Ethernet-Anschluss
+Bildschrim
+Maus
+Tstatur
+Router
+Access point
+Hub
+Firewall
+Scanner
+Fax
+Headset
+Webcam
+Microphone
+Ethernet cable
+USB cable
+HDMI cable
+Power strip
+Surge protector
+UPS
+NAS
+Wireless adapter
+Network card
+Repeater
+Bridge
+Gateway
+Netzwerkadapter
+Laptop
+Telefon
+Remote server
+Server
+Rechner
+Netzwerkdrucker
