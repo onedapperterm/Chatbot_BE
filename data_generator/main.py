@@ -1,3 +1,6 @@
+import random
+import json
+
 documents = ["device_request_queries.txt", "network_queries.txt", "password_reset.txt", "profile_setup.txt", "hardware_queries.txt" ]
 default_scenarios = ["greetings.txt", "apreciations.txt", "goodbyes.txt"]
 mask_lists = [ "softwares.txt", "devices.txt", "areas.txt", "networks.txt"]
@@ -50,4 +53,51 @@ masks = {
         }
 
 mask_switcher = { "1": "softwares", "3": "devices", "5": "areas", "7": "networks"}
+
+def _generate_random_intent():
+    scenario_label = random_int(0, 4)
+    pattern_scenario = pattern_switcher.get(scenario_label, "requests")
+    pattern_list = patterns[pattern_scenario]
+    pattern = pattern_list[random_int(0, len(pattern_list) -1)]
+    
+    ner_tags = []
+    words = []
+    for word in pattern["words"]:
+        if word in mask_switcher:
+            mask_list = masks[mask_switcher[word]]
+            mask = mask_list[random_int(0, len(mask_list) -1 )]
+            mask = mask.split(" ")
+            words.extend(mask)
+            label = int(word)
+            ner_tags.extend(label for _ in mask)
+        else:
+            words.append(word)
+            ner_tags.append(0)
+    
+    intent = {
+            "intent": pattern_scenario,
+            "intent_label": scenario_label,
+            "words": words,
+            "ner_tags": ner_tags
+            }
+    return intent
+
+def random_int(min_value, max_value):
+    return random.randint(min_value, max_value)
+
+def _get_random_default():
+    scenario_label = random_int(5, 7)
+    pattern_scenario = pattern_switcher.get(scenario_label, "greeting")
+    pattern_list = patterns[pattern_scenario]
+    pattern = pattern_list[random_int(0, len(pattern_list) -1)]
+
+    intent = {
+            "intent": pattern_scenario,
+            "intent_label": scenario_label,
+            "words": pattern["words"],
+            "ner_tags": [0 for _ in pattern["words"]]
+            }
+    return intent
+
+
 
