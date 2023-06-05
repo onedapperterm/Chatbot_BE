@@ -101,3 +101,31 @@ def _get_random_default():
 
 
 
+def _generate_dataset(size, defaults=0.2):
+    dataset = {
+            "labels": ["O", "B-SOFTWARE", "I-SOFTWARE", "B-DEVICE", "I-DEVICE", "B-AREA", "I-AREA", "B-NETWORK", "I-NETWORK" ] ,
+            "label_tags": [0, 1, 2, 3, 4, 5, 6, 7, 8 ],
+            "scenarios": ["request", "network", "password", "profile", "hardware", "greeting", "appreciation", "goodbye"],
+            "scenario_tags": [0, 1, 2, 3, 4, 5, 6, 7 ],
+            }
+
+    defaults_limit = size * defaults
+    addedDefaults = 0
+    tagged_intents = []
+    for _ in range(0, size):
+        if random_int(0, 10) >= (defaults * 10) or addedDefaults >= defaults_limit:
+            tagged_intents.append(_generate_random_intent())
+        else:
+            tagged_intents.append(_get_random_default())
+            addedDefaults = addedDefaults + 1
+
+    dataset["intents"] = tagged_intents
+    dataset["size"] = len(tagged_intents)
+
+    return dataset
+
+data = _generate_dataset(100)
+
+with open('dataset.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=4)
+
