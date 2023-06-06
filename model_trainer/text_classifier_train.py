@@ -42,7 +42,7 @@ val_dataset = TextDataset(val_encodings, val_labels)
 model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, num_labels=8)
 
 args = TrainingArguments(
-    "LF6_Serice_Classifier",
+    "LF6_Service_Classifier",
     evaluation_strategy="epoch",
     save_strategy="epoch",
     learning_rate=2e-5,
