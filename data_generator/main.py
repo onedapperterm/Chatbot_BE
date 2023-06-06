@@ -124,7 +124,7 @@ def _generate_dataset(size, defaults=0.2):
 
     return dataset
 
-data = _generate_dataset(100)
+data = _generate_dataset(6000)
 
 with open('dataset.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
