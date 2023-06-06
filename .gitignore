@@ -1,5 +1,6 @@
 #models
 LF6_Serice_Classifier/
+LF6_Token_Classifier/
 #generated dataset
 dataset.json
 # Byte-compiled / optimized / DLL files
