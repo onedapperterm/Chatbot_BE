@@ -39,7 +39,7 @@ train_dataset = TextDataset(train_encodings, train_labels)
 val_dataset = TextDataset(val_encodings, val_labels)
 
 
-model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, num_labels=7)
+model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, num_labels=8)
 
 args = TrainingArguments(
     "LF6_Serice_Classifier",
