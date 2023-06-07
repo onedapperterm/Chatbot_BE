@@ -2,7 +2,7 @@ import json
 import os
 from fuzzywuzzy import fuzz
 
-def get_answer(label, entities, state):
+def get_answer(label, entities):
     path = f"scenario_handler/{label_map[label]}"
     data = handler_map[label](path, entities)
     return data
