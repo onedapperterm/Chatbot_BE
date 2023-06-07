@@ -1,0 +1,53 @@
+{
+  "network": "general",
+  "name": "Internetverbindungsdiagnose",
+  "initial_answer": "Ich werde Ihnen einige Fragen stellen, um das Problem im Netz zu diagnostizieren, beantworten Sie diese entsprechend den Optionen.",
+  "steps": [
+    {
+      "question": "Ist Ihr Modem eingeschaltet?",
+      "info": "Überprüfen Sie, ob Ihr Modem eingeschaltet ist und die Stromkabel sicher verbunden sind.",
+      "answers": {
+        "success": "Ja, mein Modem ist eingeschaltet und die Kabel sind sicher verbunden.",
+        "failure": "Nein, mein Modem schaltet sich immer noch nicht ein.",
+        "unable": "Ich kann es im Moment nicht überprüfen."
+      }
+    },
+    {
+      "question": "Haben Sie versucht, mit einem anderen Ethernet-Kabel zu verbinden?",
+      "info": "Trennen Sie das aktuelle Ethernet-Kabel von Ihrem Modem und versuchen Sie, ein anderes zu verwenden.",
+      "answers": {
+        "success": "Ja, ich habe ein anderes Ethernet-Kabel verwendet und es hat funktioniert.",
+        "failure": "Ich habe ein anderes Ethernet-Kabel verwendet, aber es hat nicht funktioniert.",
+        "unable": "Ich kann im Moment kein anderes Ethernet-Kabel ausprobieren."
+      }
+    },
+    {
+      "question": "Haben Sie Ihren Router neu gestartet?",
+      "info": "Ziehen Sie das Netzkabel von Ihrem Router heraus, warten Sie 30 Sekunden und stecken Sie es dann wieder ein.",
+      "answers": {
+        "success": "Ja, ich habe meinen Router neu gestartet und die Internetverbindung funktioniert jetzt.",
+        "failure": "Ich habe meinen Router neu gestartet, aber die Internetverbindung funktioniert immer noch nicht.",
+        "unable": "Ich kann im Moment meinen Router nicht neu starten."
+      }
+    },
+    {
+      "question": "Haben Sie Ihre Wi-Fi Netzwerkeinstellungen überprüft?",
+      "info": "Vergewissern Sie sich, dass Ihr Wi-Fi-Netzwerk auf Ihrem Gerät ausgewählt ist und das Passwort korrekt ist.",
+      "answers": {
+        "success": "Ja, ich habe meine Wi-Fi Netzwerkeinstellungen überprüft und alles ist korrekt.",
+        "failure": "Ich habe meine Wi-Fi Netzwerkeinstellungen überprüft, aber die Verbindung funktioniert immer noch nicht.",
+        "unable": "Ich kann im Moment meine Wi-Fi Netzwerkeinstellungen nicht überprüfen."
+      }
+    },
+    {
+      "question": "Haben Sie die Internetverbindung auf einem anderen Gerät getestet?",
+      "info": "Versuchen Sie, ein anderes Gerät (z.B. Smartphone, Laptop) mit demselben Netzwerk zu verbinden und prüfen Sie, ob es Internetzugriff hat.",
+      "answers": {
+        "success": "Ja, ich habe die Internetverbindung auf einem anderen Gerät getestet und es funktioniert.",
+        "failure": "Ich habe die Internetverbindung auf einem anderen Gerät getestet, aber es funktioniert nicht.",
+        "unable": "Ich kann im Moment die Internetverbindung auf einem anderen Gerät nicht testen."
+      }
+    }
+  ]
+}
+

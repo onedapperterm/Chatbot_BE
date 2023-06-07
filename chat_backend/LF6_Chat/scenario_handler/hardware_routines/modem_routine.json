@@ -1,0 +1,79 @@
+{
+  "device": "Modem",
+  "name": "Modem Diagnose",
+  "steps": [
+    {
+      "question": "Ist das Modem eingeschaltet?",
+      "info": "Überprüfen Sie, ob das Modem eingeschaltet ist und ob die Stromkabel sicher verbunden sind.",
+      "answers": {
+        "success": "Ja, das Modem ist eingeschaltet und die Kabel sind sicher verbunden.",
+        "failure": "Nein, das Modem schaltet sich immer noch nicht ein.",
+        "unable": "Ich kann es im Moment nicht überprüfen."
+      }
+    },
+    {
+      "question": "Sind alle Kabel ordnungsgemäß angeschlossen?",
+      "info": "Stellen Sie sicher, dass alle erforderlichen Kabel (Ethernet, Telefonleitung usw.) sicher mit dem Modem verbunden sind.",
+      "answers": {
+        "success": "Ja, alle Kabel sind ordnungsgemäß angeschlossen.",
+        "failure": "Nein, es gibt immer noch Verbindungsprobleme.",
+        "unable": "Ich kann es im Moment nicht überprüfen."
+      }
+    },
+    {
+      "question": "Haben Sie das Modem neu gestartet?",
+      "info": "Ziehen Sie das Stromkabel vom Modem ab, warten Sie 30 Sekunden und stecken Sie es dann wieder ein.",
+      "answers": {
+        "success": "Ja, ich habe das Modem neu gestartet und es funktioniert jetzt.",
+        "failure": "Ich habe das Modem neu gestartet, aber es funktioniert immer noch nicht.",
+        "unable": "Ich kann das Modem im Moment nicht neu starten."
+      }
+    },
+    {
+      "question": "Gibt es bekannte Serviceausfälle?",
+      "info": "Kontaktieren Sie Ihren Internetdienstanbieter (ISP) oder besuchen Sie dessen Website, um nach bekannten Serviceausfällen in Ihrer Region zu suchen.",
+      "answers": {
+        "success": "Es gibt keine bekannten Serviceausfälle in meiner Region.",
+        "failure": "Es gibt einen Serviceausfall in meiner Region.",
+        "unable": "Ich kann es im Moment nicht überprüfen."
+      }
+    },
+    {
+      "question": "Sind alle Modemleuchten wie erwartet beleuchtet?",
+      "info": "Beachten Sie die Modemleuchten und konsultieren Sie das Benutzerhandbuch des Modems, um die Bedeutung der verschiedenen Leuchtmuster zu erfahren.",
+      "answers": {
+        "success": "Ja, alle Modemleuchten sind wie erwartet beleuchtet.",
+        "failure": "Nein, es gibt immer noch Probleme mit den Modemleuchten.",
+        "unable": "Ich kann die Modemleuchten im Moment nicht überprüfen."
+      }
+    },
+    {
+      "question": "Haben Sie mit einem anderen Gerät getestet?",
+      "info": "Schließen Sie ein anderes Gerät (z. B. Laptop, Smartphone) an das Modem an und prüfen Sie, ob es auf das Internet zugreifen kann.",
+      "answers": {
+        "success": "Ja, ich habe mit einem anderen Gerät getestet und es kann auf das Internet zugreifen.",
+        "failure": "Ich habe mit einem anderen Gerät getestet, aber es kann immer noch nicht auf das Internet zugreifen.",
+        "unable": "Ich kann im Moment kein anderes Gerät testen."
+      }
+    },
+    {
+      "question": "Haben Sie die Firewall oder Antivirensoftware deaktiviert?",
+      "info": "Deaktivieren Sie vorübergehend die Firewall oder Antivirensoftware, um festzustellen, ob dies die Internetverbindung beeinträchtigt.",
+      "answers": {
+        "success": "Ja, ich habe die Firewall/Antivirensoftware deaktiviert und das Problem wurde behoben.",
+        "failure": "Ich habe die Firewall/Antivirensoftware deaktiviert, aber das Problem besteht weiterhin.",
+        "unable": "Ich kann die Firewall/Antivirensoftware im Moment nicht deaktivieren."
+      }
+    },
+    {
+      "question": "Haben Sie Ihren Internetdienstanbieter kontaktiert?",
+      "info": "Wenn das Problem weiterhin besteht, kontaktieren Sie den Kundensupport Ihres Internetdienstanbieters (ISP) und geben Sie ihnen Details zum Problem.",
+      "answers": {
+        "success": "Ja, ich habe meinen ISP kontaktiert und sie untersuchen das Problem.",
+        "failure": "Ich habe meinen ISP kontaktiert, aber sie konnten das Problem nicht lösen.",
+        "unable": "Ich kann im Moment keinen Kontakt zu meinem ISP herstellen."
+      }
+    }
+  ]
+}
+

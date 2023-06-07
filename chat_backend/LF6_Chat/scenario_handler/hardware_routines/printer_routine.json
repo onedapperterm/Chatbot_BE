@@ -1,0 +1,79 @@
+{
+  "device": "Drucker",
+  "name": "Druckerdiagnose",
+  "steps": [
+    {
+      "question": "Ist der Drucker eingeschaltet?",
+      "info": "Überprüfen Sie, ob der Drucker eingeschaltet ist und ob die Stromkabel sicher verbunden sind.",
+      "answers": {
+        "success": "Ja, der Drucker ist eingeschaltet und die Kabel sind sicher verbunden.",
+        "failure": "Nein, der Drucker schaltet sich immer noch nicht ein.",
+        "unable": "Ich kann es im Moment nicht überprüfen."
+      }
+    },
+    {
+      "question": "Wird auf dem Drucker eine Fehlermeldung angezeigt?",
+      "info": "Überprüfen Sie, ob der Drucker Fehlermeldungen oder Warnleuchten anzeigt.",
+      "answers": {
+        "success": "Nein, es werden keine Fehlermeldungen auf dem Drucker angezeigt.",
+        "failure": "Ja, es werden Fehlermeldungen auf dem Drucker angezeigt.",
+        "unable": "Ich kann es im Moment nicht überprüfen."
+      }
+    },
+    {
+      "question": "Gibt es Papierstaus?",
+      "info": "Überprüfen Sie, ob es Papierstaus im Drucker gibt.",
+      "answers": {
+        "success": "Nein, es gibt keine Papierstaus im Drucker.",
+        "failure": "Ja, es gibt Papierstaus im Drucker.",
+        "unable": "Ich kann es im Moment nicht überprüfen."
+      }
+    },
+    {
+      "question": "Ist der Drucker mit dem Computer verbunden?",
+      "info": "Stellen Sie sicher, dass der Drucker ordnungsgemäß über USB oder Netzwerk mit dem Computer verbunden ist.",
+      "answers": {
+        "success": "Ja, der Drucker ist mit dem Computer verbunden.",
+        "failure": "Nein, der Drucker ist nicht mit dem Computer verbunden.",
+        "unable": "Ich kann es im Moment nicht überprüfen."
+      }
+    },
+    {
+      "question": "Haben Sie die Druckertreiber installiert?",
+      "info": "Überprüfen Sie, ob die entsprechenden Druckertreiber auf dem Computer installiert sind.",
+      "answers": {
+        "success": "Ja, die Druckertreiber sind installiert.",
+        "failure": "Nein, die Druckertreiber sind nicht installiert.",
+        "unable": "Ich kann es im Moment nicht überprüfen."
+      }
+    },
+    {
+      "question": "Haben Sie einen Testdruck versucht?",
+      "info": "Drucken Sie eine Testseite, um zu überprüfen, ob der Drucker ordnungsgemäß funktioniert.",
+      "answers": {
+        "success": "Ja, ich habe einen Testdruck durchgeführt und er war erfolgreich.",
+        "failure": "Ich habe einen Testdruck durchgeführt, aber er ist fehlgeschlagen.",
+        "unable": "Ich kann im Moment keinen Testdruck durchführen."
+      }
+    },
+    {
+      "question": "Haben Sie die Tinten- oder Tonerstände überprüft?",
+      "info": "Überprüfen Sie, ob ausreichend Tinte oder Toner in den Druckerpatronen vorhanden ist.",
+      "answers": {
+        "success": "Ja, die Tinten- oder Tonerstände sind ausreichend.",
+        "failure": "Nein, die Tinten- oder Tonerstände sind niedrig oder leer.",
+        "unable": "Ich kann es im Moment nicht überprüfen."
+      }
+    },
+    {
+      "question": "Haben Sie den Support des Druckerherstellers kontaktiert?",
+      "info": "Wenn das Problem weiterhin besteht, kontaktieren Sie den Support des Druckerherstellers für weitere Unterstützung.",
+      "answers": {
+        "success": "Ja, ich habe den Support des Druckerherstellers kontaktiert und sie untersuchen das Problem.",
+        "failure": "Ich habe den Support des Druckerherstellers kontaktiert, aber sie konnten das Problem nicht lösen.",
+        "unable": "Ich kann im Moment keinen Kontakt zum Support des Druckerherstellers herstellen."
+      }
+    }
+  ]
+}
+
