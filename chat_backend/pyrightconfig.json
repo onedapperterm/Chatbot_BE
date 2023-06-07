@@ -1,0 +1,12 @@
+{
+    "executionEnvironments": [
+        {"root": "LD6_chat"}
+    ],
+  "include": ["./"],
+  "exclude": ["src/tests"],
+  "reportMissingImports": true,
+  "venvPath": ".env_chat_backend",
+  "venv": ".env_chat_backend",
+  "pythonVersion": "3.8"
+}
+
