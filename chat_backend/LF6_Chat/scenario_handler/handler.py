@@ -2,13 +2,10 @@ import json
 import os
 from fuzzywuzzy import fuzz
 
-def get_answer(label, entities):
-    print(label)
+def get_answer(label, entities, state):
     path = f"scenario_handler/{label_map[label]}"
-    # data = load_routine(path)
     data = handler_map[label](path, entities)
     return data
-    # return data
 
 def load_routine(file_path):
     if os.path.exists(file_path):
@@ -21,7 +18,6 @@ def load_routine(file_path):
 
 
 def handle_request(path, entities):
-    print(f"Handling REQUEST...${path}")
     request_url = _generate_hardware_request_url(entities['DEVICE'], entities['AREA'])
     return {"answer": f"Um eine Bestellung für Hardware aufzugeben, folgen Sie dem folgenden Link, um das Bestellformular auszufüllen und abzuschicken: {request_url}"}
 
@@ -46,21 +42,33 @@ def handle_network(path, entities):
 
 
 def handle_password(path, entities):
-    file_name = find_matching_file(path, entities['SOFTWARE'][0])
+    try:
+        software = entities['SOFTWARE'][0]
+    except:
+        software = ''
+    file_name = find_matching_file(path, software)
     if file_name:
         return load_routine(f"{path}/{file_name}")
     else: 
         return {"answer": "Ich konnte keine Informationen über dieses System finden, aber die Software-Abteilung wird Ihnen gerne helfen, rufen Sie xxx xxx xxx xxx an oder senden Sie eine E-Mail an software_support@it_solutions.com und sie werden Ihr Passwort zurücksetzen."}
 
 def handle_profile(path, entities):
-    file_name = find_matching_file(path, entities['SOFTWARE'][0])
+    try:
+        software = entities['SOFTWARE'][0]
+    except:
+        software = ''
+    file_name = find_matching_file(path, software)
     if file_name:
         return load_routine(f"{path}/{file_name}")
     else: 
         return {"answer": "Ich konnte keine Informationen zu diesem System finden, aber die Software-Abteilung hilft Ihnen gerne weiter. Rufen Sie xxx xxx xxx xxx an oder schicken Sie eine E-Mail an software_support@it_solutions.com und sie helfen Ihnen gerne weiter."}
 
 def handle_hardware(path, entities):
-    file_name = find_matching_file(path, entities['DEVICE'][0])
+    try:
+        device = entities['DEVICE'][0]
+    except:
+        device = ''
+    file_name = find_matching_file(path, device)
     if file_name:
         return load_routine(f"{path}/{file_name}")
     else: 
