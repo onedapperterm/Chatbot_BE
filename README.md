@@ -24,3 +24,9 @@ source env/bin/activate
 Install the required Python packages.
 
 pip install -r requirements.txt
+ API Endpoints
+
+The following are the available API endpoints:
+
+    GET /it_chat: Retrieves answer of chatbot.
+    POST /it_chat: Creates a new question.
