@@ -2,7 +2,7 @@ from .default_answers import get_pattern
 from pipelines import text_classifier, token_classifier
 from scenario_handler.handler import get_answer
 
-def process_input(text, state, threshold=.8):
+def process_input(text, state, threshold=.7):
     intent = text_classifier.classify(text)
     if intent.get('score') < threshold:  #type:ignore
         return {"answer": get_pattern('UNKNOWN'), "state": "transfer_to_human"}
@@ -16,7 +16,9 @@ def _process_intent(label, input, threshold):
         return { "answer": get_pattern(label), "label": label}
     else:
         classification = token_classifier.classify(input) 
+        print(classification)
         entities = _get_entities(classification, threshold)
+        print(entities)
         answer = get_answer(label, entities)
         return answer
 

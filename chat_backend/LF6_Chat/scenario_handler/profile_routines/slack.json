@@ -1,0 +1,52 @@
+{
+  "name": "Slack Passwort ändern",
+  "initial_answer": "Ich zeige Ihnen, wie Sie Ihre persönlichen Daten in Slack aktualisieren können",
+  "steps": [
+    {
+      "question": "Sind Sie in Ihrem Slack-Konto angemeldet?",
+      "info": "Stellen Sie sicher, dass Sie in Ihrem Slack-Konto auf der Web- oder Desktop-App angemeldet sind.",
+      "answers": {
+        "success": "Ja, ich bin in meinem Slack-Konto angemeldet.",
+        "failure": "Nein, ich bin nicht in meinem Slack-Konto angemeldet.",
+        "unable": "Ich kann es im Moment nicht überprüfen."
+      }
+    },
+    {
+      "question": "Gehen Sie zu Ihren Slack-Kontoeinstellungen.",
+      "info": "Klicken Sie auf Ihr Profilbild oder Ihren Benutzernamen und wählen Sie 'Einstellungen & Administration' und dann 'Konto verwalten' aus.",
+      "answers": {
+        "success": "Ich habe die Kontoeinstellungen gefunden und auf 'Konto verwalten' geklickt.",
+        "failure": "Ich konnte die Kontoeinstellungen oder die Option 'Konto verwalten' nicht finden.",
+        "unable": "Ich kann im Moment nicht auf meine Kontoeinstellungen zugreifen."
+      }
+    },
+    {
+      "question": "Navigieren Sie zum Abschnitt 'Passwort'.",
+      "info": "Suchen Sie die Option 'Passwort' im Menü der Kontoeinstellungen.",
+      "answers": {
+        "success": "Ich habe den Abschnitt 'Passwort' in den Kontoeinstellungen gefunden.",
+        "failure": "Ich konnte den Abschnitt 'Passwort' in den Kontoeinstellungen nicht finden.",
+        "unable": "Ich kann im Moment nicht zum Abschnitt 'Passwort' navigieren."
+      }
+    },
+    {
+      "question": "Geben Sie Ihr aktuelles Passwort ein.",
+      "info": "Geben Sie Ihr aktuelles Passwort ein, um Ihre Identität zu bestätigen.",
+      "answers": {
+        "success": "Ich habe mein aktuelles Passwort korrekt eingegeben.",
+        "failure": "Ich habe mein aktuelles Passwort falsch eingegeben.",
+        "unable": "Ich kann im Moment mein aktuelles Passwort nicht eingeben."
+      }
+    },
+    {
+      "question": "Legen Sie ein neues Passwort für Ihr Slack-Konto fest.",
+      "info": "Wählen Sie ein starkes und eindeutiges Passwort aus und geben Sie es zweimal ein, um die Änderung zu bestätigen.",
+      "answers": {
+        "success": "Ich habe erfolgreich ein neues Passwort für mein Slack-Konto festgelegt.",
+        "failure": "Beim Festlegen eines neuen Passworts ist ein Fehler aufgetreten.",
+        "unable": "Ich kann im Moment kein neues Passwort festlegen."
+      }
+    }
+  ]
+}
+

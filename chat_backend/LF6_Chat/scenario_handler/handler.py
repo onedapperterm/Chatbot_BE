@@ -93,15 +93,16 @@ label_map = {
 def find_matching_file(path, search_string):
     matching_file = None
     max_similarity = 0
+    print(search_string)
 
     if search_string == '':
         return None
 
+    print(os.listdir(path))
     for file_name in os.listdir(path):
         if file_name.endswith(".json"):
             similarity = fuzz.ratio(file_name, search_string)
             if similarity > max_similarity:
                 max_similarity = similarity
                 matching_file = file_name
-
     return matching_file if matching_file else None
