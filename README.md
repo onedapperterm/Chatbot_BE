@@ -24,3 +24,9 @@ source env/bin/activate
 Install the required Python packages.
 
 pip install -r requirements.txt
+ API Endpoints
+
+The following are the available API endpoints:
+
+    GET /it_chat: Retrieves all CustomerMessage entries.
+    POST /it_chat: Creates a new CustomerMessage entry.
