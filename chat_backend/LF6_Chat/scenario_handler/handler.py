@@ -94,6 +94,9 @@ def find_matching_file(path, search_string):
     matching_file = None
     max_similarity = 0
 
+    if search_string == '':
+        return None
+
     for file_name in os.listdir(path):
         if file_name.endswith(".json"):
             similarity = fuzz.ratio(file_name, search_string)
