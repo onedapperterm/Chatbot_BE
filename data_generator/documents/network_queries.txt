@@ -1,30 +1,58 @@
-Ich habe Probleme mit der Konnektivität. Ich kann keine Verbindung zum Internet herstellen. Können Sie mir bei der Fehlerbehebung helfen?
+Ich habe Probleme mit der Konnektivität. Ich kann keine Verbindung zum Internet herstellen
+Ich kann keine Verbindung zum Internet herstellen
+Ich habe Probleme mit der Konnektivität
 Es scheint ein Problem mit dem 3 zu geben. Ich kann nicht auf Websites oder Online-Dienste zugreifen. Was sollte ich tun?
-Ich habe Schwierigkeiten, mich mit dem 7 zu verbinden. Keines meiner Geräte kann eine Verbindung herstellen. Welche Schritte sollte ich unternehmen, um das Problem zu lösen?
-Die Netzwerkverbindung bricht immer wieder ab. Ich habe meinen 3 bereits neu gestartet, aber das Problem besteht weiterhin. Haben Sie Vorschläge, wie ich es beheben kann?
-Ich habe eine erhebliche Verringerung der Netzwerkgeschwindigkeit und Leistung festgestellt. Das beeinträchtigt meine Arbeit. Gibt es eine Möglichkeit, das Netzwerk zu optimieren oder dieses Problem zu beheben?
+Ich kann nicht auf Websites oder Online-Dienste zugreifen. Was sollte ich tun?
+Ich habe Schwierigkeiten, mich mit dem 7 zu verbinden. Keines meiner Geräte kann eine Verbindung herstellen
+Die Netzwerkverbindung bricht immer wieder ab
+Ich habe eine erhebliche Verringerung der Netzwerkgeschwindigkeit und Leistung festgestellt
 Meine Internetverbindung ist sehr langsam. Gibt es Schritte, die ich unternehmen kann, um die Geschwindigkeit zu verbessern?
+Ich habe kein Internet auf meinem 3
+Ich habe kein Internet
+Ich habe kein Internet in 5
+das WiFi funktioniert nicht
+unser Internet in 5 funktioniert nicht
+die Verbindung bei 5 funktioniert nicht richtig
 Ich kann auf keine internen Netzwerkressourcen zugreifen. Welche Maßnahmen empfehlen Sie zur Behebung des Problems?
 Meine Drahtlosverbindung ist instabil. Wie kann ich die Verbindung zuverlässiger machen?
 Ich habe Schwierigkeiten, mich mit dem Wi-Fi-Netzwerk zu verbinden. Wie kann ich das Problem beheben?
+Ich habe Schwierigkeiten, mich mit dem Wi-Fi-Netzwerk zu verbinden
+Ich habe Schwierigkeiten, mich mit dem WLan zu verbinden
 Die Verbindung zu meinem 3 funktioniert nicht. Was kann ich tun, um ihn wieder zum Laufen zu bringen?
+Meine Internetverbindung ist sehr langsam
 Ich kann mich nicht mit dem 7 verbinden. Gibt es spezifische Konfigurationsschritte, die ich überprüfen sollte?
+Ich kann mich nicht mit dem 7 verbinden
+Die Netzwerkverbindung zu meinem externen 3 funktioniert nicht
 Mein 7 scheint nicht zu funktionieren. Wie kann ich das Problem diagnostizieren und beheben?
 Die Netzwerkverbindung zu meinem 3 ist nicht stabil. Welche Schritte kann ich unternehmen, um das Problem zu beheben?
 Ich habe Schwierigkeiten, auf 1 Websites zuzugreifen. Liegt das an meinem Netzwerk oder an den Websites selbst?
 Mein 7 wird nicht erkannt. Gibt es Lösungen, um ihn wieder einsatzbereit zu machen?
 Ich kann keine Verbindung zum 7 herstellen. Was sind die möglichen Ursachen und Lösungen?
 Ich erhalte eine Fehlermeldung, dass mein Netzwerkprofil nicht geladen werden kann. Wie kann ich das Problem beheben?
+Ich erhalte eine Fehlermeldung, dass mein Netzwerkprofil nicht geladen werden kann
 Die Netzwerkverbindung in meiner 5 ist sehr langsam. Kann etwas getan werden, um die Geschwindigkeit zu verbessern?
+Die Netzwerkverbindung in meiner 5 ist sehr langsam
+Die Internet in meiner 5 ist sehr langsam
 Ich habe Schwierigkeiten, mich mit dem firmeninternen 7 zu verbinden. Gibt es Anleitung zur Fehlerbehebung?
+Ich habe Schwierigkeiten, mich mit dem firmeninternen 7 zu verbinden
 Die Netzwerkverbindung zu meinem externen 3 funktioniert nicht. Wie kann ich das Problem lösen?
-Ich kann keine Verbindung zum 7 herstellen. Wie kann ich das Problem diagnostizieren und beheben?
+Ich kann keine Verbindung zum 7 herstellen
 Die Netzwerkverbindung in unserem 5 ist instabil. Was kann getan werden, um die Zuverlässigkeit zu verbessern?
 Ich habe Probleme mit der Netzwerkkonfiguration meines 3. Welche Einstellungen sollte ich überprüfen?
+Ich habe Probleme mit der Netzwerkkonfiguration
+wir haben Probleme mit dem Internet
+Ich habe Probleme mit der Netzwerk
+Ich habe Probleme mit der Netzwerkkonfiguration meines 3
+Die Verbindung zu unserem 7 ist nicht sicher. Gibt es Empfehlungen zur Verbesserung der Sicherheit?
 Der Zugriff auf das 7 ist langsam. Gibt es Maßnahmen zur Verbesserung der Geschwindigkeit?
+Der Zugriff auf das 7 ist langsam
 Ich habe Schwierigkeiten, mich mit dem 3 zu verbinden. Wie kann ich das Problem lösen?
+Ich habe Schwierigkeiten, mich mit dem 3 zu verbinden
 Mein 3 druckt nur leere Seiten. Gibt es eine Lösung dafür?
 Die Netzwerkverbindung meines 3 bricht ständig ab. Wie kann ich das Problem beheben?
+Die Netzwerkverbindung meines 3 bricht ständig ab
 Ich habe Schwierigkeiten, eine drahtlose Verbindung aufzubauen. Gibt es bestimmte Schritte, die ich unternehmen sollte?
 Mein 3 wird nicht erkannt. Gibt es Möglichkeiten, ihn wieder zum Funktionieren zu bringen?
-Die Verbindung zu unserem 7 ist nicht sicher. Gibt es Empfehlungen zur Verbesserung der Sicherheit?
+Ich habe Schwierigkeiten, eine drahtlose Verbindung aufzubauen
+Mein 3 wird nicht erkannt
+Die Verbindung zu unserem 7 ist nicht sicher
